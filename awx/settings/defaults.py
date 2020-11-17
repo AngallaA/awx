@@ -249,8 +249,6 @@ TEMPLATES = [
                 'django.template.context_processors.static',
                 'django.template.context_processors.tz',
                 'django.contrib.messages.context_processors.messages',
-                'awx.ui.context_processors.settings',
-                'awx.ui.context_processors.version',
                 'social_django.context_processors.backends',
                 'social_django.context_processors.login_redirect',
             ],
@@ -290,7 +288,6 @@ INSTALLED_APPS = [
     'awx.conf',
     'awx.main',
     'awx.api',
-    'awx.ui',
     'awx.sso',
     'solo'
 ]
